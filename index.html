@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <title>Beauty</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">
+        <img src="Captură de ecran din 2026-03-08 la 15.51.46.png" alt="Logo">
+        </div>
+
+    <input type="text" placeholder="Caută produse...">
+
+    <div class="icons">
+        <a href='login.html'>👤Conecteaza-te</a>
+        <span>❤️</span>
+        <span>🛒</span>
+    </div>
+</header>
+
+<nav>
+    <a href="#">Machiaj</a>
+    <a href="#">Parfumuri</a>
+    <a href="#">Îngrijire</a>
+    <a href="#">Oferte</a>
+</nav>
+
+<section class="hero" style="background-image: url('images/banner.jpg');">
+    <div class="hero-text">
+        <h1>Femeie. Esența frumuseții.</h1>
+        <p>-30% la parfumuri</p>
+        <button>Cumpără</button>
+    </div>
+</section>
+
+<section class="cards">
+    <div class="card">
+        <h3>-40%</h3>
+        <p>Machiaj</p>
+        <button>Cumpără</button>
+    </div>
+
+    <div class="card">
+        <h3>Parfumuri</h3>
+        <img src="images/f7e2504d7dc9ea6be5197c45a5a6ea42 (1).jpg" alt="Sol de Janeiro Parfum" style="width:100%;height:180px;object-fit:cover;border-radius:8px;margin-bottom:10px;">
+        <p>Sol de Janeiro</p>
+        <button>Cumpără</button>
+    </div>
+
+    <div class="card">
+        <h3>App Week</h3>
+        <p>Surprize zilnice</p>
+        <button>Cumpără</button>
+    </div>
+    <div id="countdown">
+Reducere expiră în: <span id="timer">24:00:00</span>
+</div>
+</section>
+<script src="script.js"></script>
+<section class="contact-form">
+    <h2>Contactează-ne</h2>
+    <form action="https://formspree.io/f/mqeydyqy" method="POST">
+        <label for="name">Nume:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Mesaj:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit">Trimite</button>
+    </form>
+</section>
+</body>
+</html>
